@@ -29,15 +29,15 @@ async function connection() {
 
     console.log("msql connection success..");
     const name ="Rahul"
-        const email = "rahulmishra5596@gmail.com"
-        const phone_no= "+8279916623"
+        const email = "rahul@gmail.com"
+        const phone_no= "+91xxxxxxx"
         let password = "rahul"
         const hash =  await bcrypt.encryptPassword(password)
         password = hash
 
         const name1="Mishra"
-        const email1 = "mishra@gmail.com"
-        const phone_no1 = "+8279916623"
+        const email1 = "xxxxx@gmail.com"
+        const phone_no1 = "+91xxxxxxx"
         let password1 = "12345"
         const hash1 =  await bcrypt.encryptPassword(password)
         password1 = hash
